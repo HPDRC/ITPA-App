@@ -1,0 +1,145 @@
+﻿<div class="">
+    <div id="itpaList" class="row itpaCardListContainer">
+        <div id="itpaAllListContent" class="itpaCardContainer">
+            <div id="directionsInstructionsDiv" style="display:none; overflow:hidden; border: none; 
+                width: 90%;height:95%;color:black;padding:0px;margin:0px;text-align:center;line-height:20px;font-size:16px;
+                margin-top: -1px;">
+                use the 
+                <b>From</b> <i class="itpa-from-icon iconInCardText2"></i> and 
+                <b>To</b> <i class="itpa-to-icon iconInCardText2"></i>
+                <b>Location</b>
+                <br />buttons to get directions for your trip
+                <br />
+            </div>
+            <div class="card itpaCard" ng-repeat="card in ((cardArrayUse | orderBy: orderList) | filter:filterAllList)" ng-click="onClickCard(card)" id="{{card.featureKey}}">
+                <div ng-if="isPlaceholderCard(card)" class="item itpaCardItem">
+                    <div class="placeholderCardRow">
+                        <div style="display:block;">
+                            <div class="item itemSmall placeholderCardStyle">
+                                {{card.item.cardTitle}}
+                            </div>
+                            <div class="item itemSmall placeholderCardStyle">
+                                {{card.item.cardMsg}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div ng-if="isLineCard(card)" class="item itpaCardItem">
+                    <div class="row lineCardRow">
+                        <div style="display:block;">
+                            <div class="item itemSmall lineColorDetail" style="display:inline-block;border-top-left-radius:6px;border-top-right-radius:6px;" ng-style="{'background-color': card.item.lineColor };">
+                                {{card.item.cardTitle}}
+                            </div>
+                            <div class="lineCardMsgStyle" style="border-bottom-left-radius:6px;border-bottom-right-radius:6px;padding-left:2px;padding-right:2px;">
+                                {{card.item.cardMsg}} - {{card.item.nBuses}}
+                                <i class="itpa-bus-text iconInCardText"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div ng-if="isGarageCard(card)" class="item itpaCardItem">
+                    <div class="row garCardRow">
+                        <i class="itpa-gar-text iconInCard"></i>
+                        <div style="display:block;">
+                            <div class="item itemSmall garCardStyle">
+                                {{card.item.cardTitle}}
+                            </div>
+                            <div class="item itemSmall garOccupancyDetail" ng-style="{'background-color': card.item.occupancyColor};"> {{card.item.cardMsg}} </div>
+                            <!--<div class="item itemSmall garCardStyle" ng-style="{'background-color': card.item.occupancyColor};"> {{card.item.cardMsg}} </div>-->
+                        </div>
+                    </div>
+                </div>
+                <div ng-if="isMessageCard(card)" class="item itpaCardItem">
+                    <div class="row msgCardRow">
+                        <div style="display:block;">
+                            <div class="item itemSmall msgCardStyle">
+                                {{card.item.cardTitle}}
+                            </div>
+                            <div class="item itemSmall msgCardStyle">
+                                {{card.item.cardMsg}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div ng-if="isIncidentCard(card)" class="item itpaCardItem">
+                    <div class="row incCardRow">
+                        <i class="itpa-inc-text iconInCard"></i>
+                        <div style="display:block;">
+                            <div class="item itemSmall incCardStyle" style="max-width:10rem">
+                                {{card.item.cardTitle}}
+                            </div>
+                            <div class="item itemSmall incCardStyle" style="max-width:10rem">
+                                {{card.item.cardMsg}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div ng-if="isBusCard(card)" class="item itpaCardItem">
+                    <div class="row busCardRow">
+                        <!--<i class="itpa-bus-text iconInCard" ng-style="{'background-color': card.item.lineColor };"></i>-->
+                        <div class="busLineInBusCard" style="border-radius:4px;" ng-style="{'background-color': card.item.lineColor };"> {{card.item.fleet}}<br />{{card.item.lineStr}} </div>
+                        <div style="display:block;">
+                            <div class="item itemSmall busCardStyle">
+                                {{card.item.cardTitle}}
+                                <i class="itpa-stop-text iconInCardText"></i>
+                            </div>
+                            <div class="item itemSmall busCardStyle">
+                                {{card.item.cardMsg}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div ng-if="isStopCard(card)" class="item itpaCardItem">
+                    <div class="row stopCardRow">
+                        <i class="itpa-stop-text iconInCard"></i>
+                        <div style="display:block;">
+                            <div class="item itemSmall stopCardStyle">
+                                {{card.item.cardTitle}}
+                            </div>
+                            <div class="item itemSmall stopCardStyle">
+                                {{card.item.cardMsg}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div ng-if="isSearchCard(card)" class="item itpaCardItem">
+                    <div class="row searchCardRow">
+                        <i class="itpa-search-text iconInCard"></i>
+                        <div style="display:block;">
+                            <div class="item itemSmall searchCardStyle" style="border-top-right-radius:6px;">
+                                {{card.item.cardTitle}}
+                            </div>
+                            <div class="item itemSmall searchCardStyle" style="border-bottom-right-radius:6px;">
+                                {{card.item.cardMsg}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div ng-if="isDirectionsCard(card)" class="item itpaCardItem">
+                    <div class="row directionsCardRow">
+                        <div style="display:block;">
+                            <div class="item itemSmall directionsCardStyle" style="border-top-right-radius:6px; border-top-left-radius:6px;">
+                                {{card.item.cardTitle}}
+                            </div>
+                            <div class="item itemSmall directionsCardStyle" style="border-bottom-right-radius:6px; border-bottom-left-radius:6px;">
+                                {{card.item.cardMsg}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div ng-if="isBusDirectionsCard(card)" class="item itpaCardItem">
+                    <div class="row directionsCardRow">
+                        <div style="display:block;">
+                            <div class="item itemSmall directionsCardStyle" style="white-space:normal; max-height: 40px; overflow: hidden; text-overflow: ellipsis; border-top-right-radius:6px; border-top-left-radius:6px;">
+                                {{card.item.cardTitle}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

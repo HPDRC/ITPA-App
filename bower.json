@@ -1,0 +1,11 @@
+{
+  "name": "itpa-app",
+  "private": true,
+  "devDependencies": {
+    "angular-toastr": "^1.7.0",
+    "ngCordova": "0.1.26-alpha",
+    "ionic": "1.2.4",
+    "ngstorage": "^0.3.10"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="49px"
+   height="49px"
+   viewBox="0 0 49 49"
+   version="1.1"
+   id="svg4136"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="mapbbcbutton.svg">
+  <metadata
+     id="metadata4161">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>map button/fave</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2048"
+     inkscape:window-height="1089"
+     id="namedview4159"
+     showgrid="false"
+     inkscape:zoom="17.55102"
+     inkscape:cx="24.5"
+     inkscape:cy="24.5"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4136" />
+  <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4138">map button/fave</title>
+  <desc
+     id="desc4140">Created with Sketch.</desc>
+  <defs
+     id="defs4142">
+    <circle
+       id="path-1"
+       cx="24.5"
+       cy="24.5"
+       r="24.5" />
+    <mask
+       id="mask-2"
+       maskContentUnits="userSpaceOnUse"
+       maskUnits="objectBoundingBox"
+       x="0"
+       y="0"
+       width="49"
+       height="49"
+       fill="white">
+      <use
+         xlink:href="#path-1"
+         id="use4146" />
+    </mask>
+    <rect
+       id="path-3"
+       x="-159"
+       y="-234"
+       width="501"
+       height="310" />
+    <mask
+       id="mask-4"
+       maskContentUnits="userSpaceOnUse"
+       maskUnits="objectBoundingBox"
+       x="0"
+       y="0"
+       width="501"
+       height="310"
+       fill="white">
+      <use
+         xlink:href="#path-3"
+         id="use4150" />
+    </mask>
+  </defs>
+  <g
+     id="Symbols"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     stroke-linecap="square">
+    <g
+       id="map-button/fave"
+       stroke="#003377">
+      <use
+         id="Oval-62"
+         mask="url(#mask-2)"
+         stroke-width="3"
+         fill="#FFFFFF"
+         xlink:href="#path-1" />
+      <g
+         id="floating-button---fave"
+         transform="translate(13.000000, 12.000000)"
+         stroke-width="1.5"
+         stroke-linejoin="round">
+        <g
+           id="icon/favorites-yellow-deselected-large">
+          <polygon
+             id="Star-2"
+             points="11.9888911 17.035033 5.8154169 21 7.67861619 13.9034349 2 9.25735421 9.32499472 8.83640282 11.9888911 2 14.6527875 8.83640282 21.9777823 9.25735421 16.2991661 13.9034349 18.1623654 21" />
+        </g>
+      </g>
+    </g>
+    <use
+       id="Rectangle-136"
+       stroke="#505050"
+       mask="url(#mask-4)"
+       stroke-width="4"
+       xlink:href="#path-3" />
+  </g>
+  <path
+     style="fill:#00ffff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 20.111219,31.123547 c 0.227535,-0.785069 1.346223,-5.162057 1.346223,-5.267243 0,-0.07862 -0.05835,-0.230061 -0.129672,-0.336541 -0.07132,-0.10648 -1.059339,-0.955662 -2.195599,-1.887072 -1.704085,-1.396865 -2.043124,-1.697926 -1.935735,-1.7189 0.07161,-0.01399 1.301989,-0.09033 2.734185,-0.169661 2.750233,-0.152333 2.838426,-0.165369 3.018311,-0.44616 0.0462,-0.07211 0.515369,-1.240019 1.042605,-2.595354 0.527236,-1.355334 0.976329,-2.464244 0.997984,-2.464244 0.02166,0 0.470754,1.10891 0.997996,2.464244 0.527243,1.355335 0.996631,2.523244 1.043084,2.595354 0.192589,0.298961 0.32935,0.315375 4.369283,0.524424 0.689418,0.03568 1.31237,0.07663 1.384337,0.09101 0.108453,0.02167 -0.227995,0.319298 -1.965697,1.738886 -1.205026,0.984427 -2.138947,1.788898 -2.196257,1.891837 -0.05484,0.0985 -0.09946,0.243595 -0.09915,0.322427 2.85e-4,0.07883 0.306903,1.308874 0.681319,2.733427 0.374415,1.424554 0.671641,2.599212 0.660501,2.610352 -0.01114,0.01114 -0.926672,-0.563206 -2.034516,-1.276325 -2.643522,-1.701635 -2.595841,-1.673542 -2.840423,-1.673542 -0.24453,0 -0.197584,-0.02765 -2.834721,1.669877 -1.104707,0.711103 -2.023048,1.292914 -2.040758,1.292914 -0.01771,0 -0.0192,-0.04487 -0.0033,-0.09971 z"
+     id="path4163"
+     inkscape:connector-curvature="0" />
+</svg>

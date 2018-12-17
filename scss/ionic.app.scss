@@ -1,0 +1,92 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic.scss";
+
+$login-bg2: #3a3a3a;
+$login-bg: #fafafa;
+$login-color: #ffffff;
+
+$home-bg: #e7e7e7;
+$search-bg: #213873;
+$menu-header-bg: #3a3a3a;
+
+$registration-color: #000;
+
+$break-small: 320px;
+$break-large:1024px;
+
+@mixin respond-to($media) {
+  @if $media == small-screens {
+    @media only screen and (max-width: $break-small) { @content; }
+  }
+  @else if $media == medium-screens {
+    @media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1) { @content; }
+  }
+  @else if $media == large-screens {
+    @media only screen and (min-width: $break-large) { @content; }
+  }
+}
+
+.search-container { background-color: $search-bg; }
+
+.item-input-wrapper-search-itpa { @extend .item-input-wrapper; background: rgba(0,0,0,0); }
+
+input.search-content {
+    font-size: 1.4rem;
+    color: white;
+    background-color: $search-bg;
+    ion-tabs { .tab-nav { position: static; } }
+}
+
+.menu-view {
+    .list { padding: 0px; a { border: 0px; } }
+    .header-list { color: white; background-color: $menu-header-bg;
+        a { color: white; background-color: $menu-header-bg; }
+    }
+}
+
+.test-view {
+    color: $login-color;
+    background-color: $login-bg;
+
+    .testBottom {
+        position: absolute;
+        bottom: 0;
+        padding: 1px;
+        width: 100%;
+        height: 50%;
+    }
+}
+
+/*.checkbox-balanced-itpa input:before,
+.checkbox-balanced .checkbox-icon:before {
+  border-color: #33cd5f;
+  font-size:10px;
+}
+
+.checkbox-balanced-itpa input:checked:before,
+.checkbox-balanced input:checked + .checkbox-icon:before {
+  background: #33cd5f;
+  border-color: #33cd5f; 
+  font-size:10px;
+}
+*/

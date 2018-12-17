@@ -1,0 +1,39 @@
+<ion-modal-view class="login-view">
+    <ion-header-bar class="bar search-container">
+        <h1 class="title" style="text-align: center; color:white;">Local Data</h1>
+        <div class="buttons">
+            <i class="button icon button-clear ion-close search-bar-button-itpaa" style="color: goldenrod; background-color: #213873;" ng-click="closeEllipsis()"></i>
+        </div>
+    </ion-header-bar>
+    <ion-content scroll="true">
+        <div class="login-content">
+            <div class="login-header" style="font-size:16px;padding-bottom: 4px;">
+                <p>Choose a place to start:</p>
+            </div>
+            <button class="button button-large button-block button-calm"
+                    type="submit" 
+                    ng-click="onEllipsisGo(ellipsisSettings.fromURL);" ng-hide="!ellipsisSettings.fromURL">
+                <i class="itpa-from-icon iconInCardText3"></i>
+                <span class="ellipsisKW">From</span> location
+            </button>
+            <button class="button button-large button-block button-calm"
+                    type="submit" 
+                    ng-click="onEllipsisGo(ellipsisSettings.toURL);" ng-hide="!ellipsisSettings.toURL">
+                <i class="itpa-to-icon iconInCardText3"></i>
+                <span class="ellipsisKW">To</span> location
+            </button>
+            <button class="button button-large button-block button-calm"
+                    type="submit" 
+                    ng-click="onEllipsisGo(ellipsisSettings.currentURL);" ng-hide="!ellipsisSettings.currentURL">
+                <i class="itpa-user-position-text iconInCardText3"></i>
+                <span class="ellipsisKW">Current</span> location
+            </button>
+            <button class="button button-large button-block button-calm"
+                    type="submit" 
+                    ng-click="onEllipsisGo(ellipsisSettings.centerURL);" ng-hide="!ellipsisSettings.centerURL">
+                <i class="itpa-map-center-text iconInCardText3"></i>
+                Map <span class="ellipsisKW">Center</span>
+            </button>
+        </div>
+    </ion-content>
+</ion-modal-view>

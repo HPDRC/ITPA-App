@@ -1,0 +1,29 @@
+﻿<ion-modal-view class="login-view">
+    <ion-header-bar class="bar search-container">
+        <div class="buttons">
+            <i class="button icon button-clear ion-arrow-down-a search-bar-button-itpaa" style="color: goldenrod; background-color: #213873;" ng-click="closeAbout()"></i>
+        </div>
+        <h1 class="title" style="color:white;">About ITPA</h1>
+    </ion-header-bar>
+    <ion-content scroll="false">
+        <div class="login-content" style="text-align:center">
+            <div class="login-header">
+                <h2>Thank you for using the ITPA-app</h2>
+                <p>To learn more about the ITPA project, please visit the web site:</p>
+            </div>
+            <div style="margin-top: 16px;">
+                <button class="button button-large button-block button-balanced" style="line-height:36px;"
+                        type="submit" onclick="window.open('http://uc.fiu.edu/IA/', '_system', 'location=yes'); return false;" ng-click="gotoUCWebSite()">
+                    Visit<br />Website
+                </button>
+            </div>
+            <div style="position:absolute;left:0px;bottom: 10px;text-align:center;width:100%">
+                <button class="button button-large button-block button-calm" style="line-height:16px;width:100%"
+                        type="submit" ng-click="onRemoveLoginCredentials()" ng-show="hasCredentials" >
+                    Remove login credentials
+                </button>
+                <i class="itpa-itpa-about-icon"/>
+            </div>
+        </div>
+    </ion-content>
+</ion-modal-view>

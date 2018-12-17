@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>map overlay/user position</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="-323" y="-53" width="501" height="310"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="501" height="310" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="map-overlay/user-position">
+            <g id="map-overlay/user-location-">
+                <path d="M6.50000436,9.50623654 C6.50344472,11.1625765 7.84970067,12.5036484 9.50601908,12.4999925 C11.1623375,12.4969818 12.5036479,11.1513937 12.4999925,9.49440862 C12.4978423,7.83742349 11.1520164,6.49635155 9.49440787,6.50000746 C7.83830448,6.50280315 6.49720907,7.84903636 6.50000436,9.50623654 Z" id="Shape" fill="#003377"></path>
+                <circle id="Oval-3" stroke="#003377" stroke-linecap="square" cx="9.5" cy="9.5" r="6.5"></circle>
+                <path d="M0.5,9.5 L2.5,9.5" id="Line" stroke="#003377" stroke-linecap="square"></path>
+                <path d="M16.5,9.5 L18.5,9.5" id="Line-Copy" stroke="#003377" stroke-linecap="square"></path>
+                <path d="M9.5,18.5 L9.5,16.5" id="Line-Copy-3" stroke="#003377" stroke-linecap="square"></path>
+                <path d="M9.5,2.5 L9.5,0.5" id="Line-Copy-2" stroke="#003377" stroke-linecap="square"></path>
+            </g>
+        </g>
+        <use id="Rectangle-136" stroke="#505050" mask="url(#mask-2)" stroke-width="4" stroke-linecap="square" xlink:href="#path-1"></use>
+    </g>
+</svg>

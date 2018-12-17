@@ -1,0 +1,160 @@
+﻿.itpaCardListContainer { overflow-y:hidden;overflow-x:scroll;-webkit-overflow-scrolling: touch; margin: 0px; display: block; border: none;padding:0px;}
+
+.itpaCardContainer { 
+    white-space:nowrap;padding:0px;margin:0px;border:none;border-radius: 10px; 
+    display: block;
+    /*transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: visibility .25s ease-in-out;
+    -moz-transition: visibility .25s ease-in-out;
+    -webkit-transition: visibility .25s ease-in-out;*/
+}
+
+.opacityOne { opacity: 1; }
+.opacityZero { opacity: 0; }
+
+.displayBlock { display: block; visibility:visible; opacity: 1; }
+.displayNone { display: none; visibility:hidden; opacity: 0; }
+
+.itpaCard { display:inline-block;padding:0px;margin:1px;border:none;border-radius: 10px;font-size: 0.8rem;}
+
+.itpaCardItem { padding:0px;margin:0px;border:none;height:100%; }
+
+.incCardStyle {
+    background-color:rgba(255,194,0,0.5);
+    text-shadow:1px 1px 2px #fff;
+}
+
+.msgCardStyle {
+    background-color:#000;color:#fc0;
+}
+
+.garCardStyle {
+    background-color:#fff;color:#000;
+}
+
+.ssgCardRow {
+    background-color: navajoWhite;
+    color: #003377;
+    border: 2px dashed #037;
+    border-radius: 10px;
+    padding: 0px;
+    max-width: 30em;
+}
+
+.garCardRow {
+    padding:0px;border: 2px dashed #0b0;border-radius: 10px; padding-bottom: 1px;background-color:#fff;color:#000;
+}
+
+.msgCardRow {
+    padding:0px;border: 2px dashed #fc0;border-radius: 10px; padding-bottom: 1px;background-color:#000;color:#fc0;
+}
+
+.incCardRow {
+    padding:0px;border: 2px dotted #b00 ;border-radius: 10px; padding-bottom: 1px;background-color:#ffc200;color:#00f;
+}
+
+.busCardRow {
+    padding:2px; border: 2px dotted navy ;border-radius: 10px; padding-bottom: 2px;background-color:#aff;color:#00b;
+}
+
+.stopCardRow {
+    padding:0px;border: 2px dotted #0b0 ;border-radius: 10px; padding-bottom: 1px;background-color:#fdd;color:#008;
+}
+
+.lineCardRow {
+    padding:2px;border: 2px dotted #0b0 ;border-radius: 10px; padding-right: 1px;background-color:#ebebeb;color:#000;
+}
+
+.placeholderCardRow {
+    padding:2px;border: 2px solid rgba(0,0,0,0) ;padding-right: 1px;background-color:transparent;color:#000;
+}
+
+.searchCardRow {
+    padding:2px;border: 2px dotted #213873 ;border-radius: 10px; padding-bottom: 1px;background-color:navajowhite;color:#040;
+}
+
+.directionsCardRow {
+    padding:2px;border: 2px dotted #213873 ;border-radius: 10px; padding-bottom: 1px;background-color:#ebbe49;color:#020;
+}
+
+.busCardStyle {
+    background-color:#aff;color:#00b;
+}
+
+.stopCardStyle {
+    background-color:#fdd;color:#008;
+}
+
+.lineCardStyle {
+    background-color:#ebebeb;color:#000;
+}
+
+.searchCardStyle {
+    background-color:lightgoldenrodyellow;color:#213873;max-width:10rem
+}
+
+.directionsCardStyle {
+    background-color:#ebbe49;color:#213873;max-width:14rem
+}
+
+.placeholderCardStyle {
+    /*background-color:#fbfbbf;color:#040;*/
+}
+
+.busLineInBusCard {
+    color: white;
+    text-align:center;
+    padding-left:2px;
+    padding-right:2px;
+    text-shadow:1px 1px 2px #000000;
+}
+
+.iconInCard {
+    width:24px;padding:0px;padding-left: 2px;padding-right:2px;
+}
+
+.iconInCardText {
+    width:16px;padding:2px;vertical-align:text-bottom;
+}
+
+.iconInCardText2 {
+    width:20px;padding:2px;vertical-align:middle;
+}
+
+.iconInCardText3 {
+    width:40px;padding:2px;vertical-align:middle;
+}
+
+/*.garOccupancyDetail {
+    color:white;width:10rem;border-radius:2px; margin:4px; text-align: center; text-shadow:0px 0px 3px #000000;
+}*/
+
+.garOccupancyDetail {
+    color:white;border-radius:2px; margin:4px; text-align: center; text-shadow:1px 1px 2px #000000;
+}
+
+.lineColorDetail {
+    color:white;border-radius:2px; padding:2px; text-align: center; text-shadow:1px 1px 2px #000000;max-width:10em;width:100%;
+}
+
+.lineMapDetail {
+    color:white;text-shadow:1px 1px 2px #000000;
+}
+
+.lineCardMsgStyle {
+    border:none; margin:0px; padding:0px; text-align: center; text-shadow:1px 1px 1px white; color: navy; font-weight:bold; font-size:0.8rem;margin-bottom:-1px;margin-top:-3px;height:1rem;background-color:#ffc900;
+}
+
+.lineMapMsgStyle {
+    text-shadow:1px 1px 1px white; color: navy; font-weight:bold; font-size:0.8rem;
+}
+
+.lineNameOnMap {
+    color:white; text-shadow:1px 1px 2px #000000;font-size:1rem;
+}
+
+.lineDirectionOnMap {
+    border:none; margin:0px; padding:0px; text-align: center; text-shadow:1px 1px 1px #FFDEAD; color: navy; font-weight:bold; font-size:0.8rem;margin-bottom:-1px;margin-top:-3px;height:1rem;
+}

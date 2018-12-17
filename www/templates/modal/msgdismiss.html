@@ -1,0 +1,23 @@
+<ion-modal-view class="login-view">
+    <ion-header-bar class="bar search-container">
+        <div class="buttons">
+            <button class="button button-balanced" ng-click="closeMsgDismiss(true)">Save</button>
+        </div>
+        <h1 class="title" style="text-align: center; color:white;">Always Dismiss</h1>
+        <div class="buttons">
+            <button class="button button-assertive" ng-click="closeMsgDismiss(false)">Cancel</button>
+        </div>
+    </ion-header-bar>
+    <ion-content scroll="true">
+        <div class="login-content">
+            <ion-list>
+                <div ng-repeat="message in dismissMsgArray" class="row msgCardRow" style="margin-bottom:10px; max-width: 100%; overflow: hidden;text-align:left;align-items:center;">
+                    <i class="itpa-trash-icon" style="border-radius: 6px; display:inline-block; background-color: white;" ng-click="deleteMsgDismiss(message);"></i>
+                    <div class="itemSmall msgCardStyle" style="display:inline-block;width:100%;vertical-align:central;padding:4px;margin-left: 3px;">
+                        {{message.message}}
+                    </div>
+                </div>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-modal-view>

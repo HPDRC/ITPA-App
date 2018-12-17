@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="505"
+   height="314"
+   viewBox="0 0 505 314"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="incident.svg">
+  <metadata
+     id="metadata31">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>map overlay//incident</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2048"
+     inkscape:window-height="1089"
+     id="namedview29"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="26.700352"
+     inkscape:cx="270.95889"
+     inkscape:cy="153.11102"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">map overlay//incident</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8">
+    <pattern
+       inkscape:stockid="Stripes 1:1"
+       id="Strips1_1"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="1"
+       width="2"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect4892"
+         height="2"
+         width="1"
+         y="-0.5"
+         x="0"
+         style="fill:black;stroke:none" />
+    </pattern>
+    <path
+       d="m 12.497707,1.6673668 c 0.276653,-0.4767331 0.722716,-0.4810071 1.001849,0 l 11.77645,20.2933812 c 0.276652,0.476733 0.05734,0.863202 -0.500925,0.863202 l -23.5528994,0 c -0.55330589,0 -0.78005762,-0.382195 -0.50092447,-0.863202 L 12.497707,1.6673668 Z"
+       id="path-1"
+       inkscape:connector-curvature="0" />
+    <mask
+       id="mask-2"
+       maskContentUnits="userSpaceOnUse"
+       maskUnits="objectBoundingBox"
+       x="-1"
+       y="-1"
+       width="26.793728"
+       height="23.5157374">
+      <rect
+         x="-0.39832872"
+         y="0.30821243"
+         width="26.793728"
+         height="23.515738"
+         id="rect12"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#path-1"
+         id="use14"
+         style="fill:#000000"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </mask>
+    <rect
+       id="path-3"
+       x="-252"
+       y="-145"
+       width="501"
+       height="310" />
+    <mask
+       id="mask-4"
+       maskContentUnits="userSpaceOnUse"
+       maskUnits="objectBoundingBox"
+       x="0"
+       y="0"
+       width="501"
+       height="310"
+       fill="white">
+      <use
+         xlink:href="#path-3"
+         id="use18"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </mask>
+  </defs>
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     style="fill:#ffc200;fill-rule:evenodd;stroke:none;stroke-width:1"
+     id="use23"
+     xlink:href="#path-1"
+     transform="translate(254,147)" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     style="fill:none;fill-rule:evenodd;stroke:#dbd2c7;stroke-width:2;stroke-linecap:square;stroke-opacity:1;opacity:0.534"
+     id="use25"
+     xlink:href="#path-1"
+     mask="url(#mask-2)"
+     transform="translate(254,147)" />
+  <path
+     d="M 267.99028,155 266,155 l 0.01,4.88592 c 0,0.5838 0.024,0.44517 0.0898,0.87479 0.0658,0.42963 0.0969,0.60908 0.18198,1.23929 l 1.4261,0 c 0.0863,-0.63021 0.16306,-0.811 0.22708,-1.23929 0.064,-0.42828 0.0654,-0.29099 0.0654,-0.87479 L 267.99028,155 Z M 266,165.00089 c 0,0.14202 0.0261,0.27237 0.0764,0.39494 0.0503,0.1216 0.12083,0.22665 0.21073,0.31615 0.0909,0.0875 0.1972,0.15759 0.31996,0.20817 0.12373,0.0506 0.25616,0.0769 0.39729,0.0769 0.13534,0 0.26583,-0.0263 0.3886,-0.0769 0.12373,-0.0506 0.22909,-0.12062 0.31706,-0.20817 0.088,-0.0895 0.15853,-0.19455 0.2117,-0.31615 0.0522,-0.12257 0.0783,-0.25292 0.0783,-0.39494 0,-0.13813 -0.0261,-0.26848 -0.0783,-0.393 -0.0532,-0.12354 -0.12373,-0.2286 -0.2117,-0.31809 -0.088,-0.0885 -0.19333,-0.15953 -0.31706,-0.21304 -0.12276,-0.0535 -0.25326,-0.0798 -0.38956,-0.0798 -0.14016,0 -0.27259,0.0263 -0.39632,0.0798 -0.12277,0.0535 -0.2291,0.12452 -0.31997,0.21304 -0.0899,0.0895 -0.16046,0.19455 -0.21073,0.31809 -0.0503,0.12452 -0.0764,0.25487 -0.0764,0.393 l 0,0 z"
+     id="Fill-2"
+     inkscape:connector-curvature="0"
+     style="fill:#505050;fill-rule:evenodd;stroke:none;stroke-width:1" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     style="fill:none;fill-rule:evenodd;stroke:#505050;stroke-width:4;stroke-linecap:square"
+     xlink:href="#path-3"
+     mask="url(#mask-4)"
+     id="Rectangle-136"
+     transform="translate(254,147)" />
+</svg>

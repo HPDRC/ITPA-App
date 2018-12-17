@@ -1,0 +1,38 @@
+﻿<ion-nav-bar class="bar search-container">
+    <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-arrow-up-a search-bar-button-itpa" style="color: goldenrod; background-color: #213873;"
+                ng-click="onAbout();"></button>
+    </ion-nav-buttons>
+    <ion-nav-title class="search-container">
+        <div class="item-input-inset-itpa" ng-if="true">
+            <label class="item-input-wrapper-itpa">
+                <input id="searchText" type="search" placeholder="Search address, places" class="search-content" ng-model="text.searchText" ng-enter="onSearchKbdGo();">
+            </label>
+        </div>
+    </ion-nav-title>
+    <ion-nav-buttons side="right">
+        <a data-tap-disabled="true" class="button button-icon button-clear ion-search" style="color: goldenrod; background-color: #213873;"
+           ng-click="onSearch();" ng-class="{'ion-search':!hasFilters,'ion-close-circled':hasFilters}"></a>
+        <button class="button button-icon button-clear ion-more search-bar-button-itpa" style="color: goldenrod; background-color: #213873;"
+                ng-click="onEllipsis();"></button>
+    </ion-nav-buttons>
+</ion-nav-bar>
+<!--<ion-footer-bar class="bar-stable">
+    <div class="button-bar">
+        <button ng-repeat="icon in icons.icons" class="button button-small button-clear"
+                ng-click="onClickFeatureButton($index)" ng-style="{'background-color': icons.bkColor[$index]}">
+            <div style="position:relative;">
+                <i class="button button-icon" ng-class="icons.icons[$index]" style="position:relative;"></i>
+                <img src="../img/bus.png" style="width: 16px;position: absolute;top:0px;right:0px;z-index:1;" />
+            </div>
+        </button>
+    </div>
+</ion-footer-bar>-->
+<ion-view class="test-view">
+    <ion-content scroll="false" has-header" padding="false">
+        <div id="mapTopDiv" class="mapTop" style="border: 2px solid goldenrod; height:{{mapContainerHeight}};top:{{map}}">
+            <div class="mapParentContainer" style="width:100%;height:100%" ui-view="mapViewContent"></div>
+        </div>
+        <div class="listBottom" style="height:{{listContainerHeight}};"><div style="width:100%;height:100%" ui-view="listViewContent"></div></div>
+</ion-content>
+</ion-view>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>map overlay/msgboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="1 1 1 13.3611357 1 14.8577755 1 20 6.421 14.8577755 19 14.8577755 19 1"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="20" height="21">
+            <rect x="0" y="0" width="20" height="21" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <rect id="path-3" x="-219" y="-149" width="501" height="310"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="501" height="310" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="map-overlay/msgboard">
+            <g id="Fill-1">
+                <use fill="#505050" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" stroke-linejoin="round" xlink:href="#path-1"></use>
+            </g>
+            <polygon id="Fill-2" fill="#FFC200" points="16 7 4 7 4 5 16 5"></polygon>
+            <polygon id="Fill-3" fill="#FFC200" points="11 11 4 11 4 9 11 9"></polygon>
+        </g>
+        <use id="Rectangle-136" stroke="#505050" mask="url(#mask-4)" stroke-width="4" stroke-linecap="square" xlink:href="#path-3"></use>
+    </g>
+</svg>

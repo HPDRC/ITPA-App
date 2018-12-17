@@ -1,0 +1,27 @@
+{
+  "android": {
+    "release": {
+      "keystore": "c:\\Android Keys\\itpa-streetsmart-key.keystore",
+      "storePassword": "akula4less",
+      "alias": "ITPA",
+      "password": "akula4less",
+      "keystoreType": ""
+    }
+  },
+  "ios": {
+    "debug": {
+      "developmentTeam": "8WGZVQTTVN",
+      "buildFlag": [
+        "-UseModernBuildSystem=0"
+      ]
+    },
+    "release": {
+      "developmentTeam": "8WGZVQTTVN",
+      "codeSignIdentity": "iPhone Developer",
+      "packageType": "ad-hoc",
+      "buildFlag": [
+        "-UseModernBuildSystem=0"
+      ]
+    }
+  }
+}

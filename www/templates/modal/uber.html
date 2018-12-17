@@ -1,0 +1,52 @@
+<ion-modal-view class="login-view">
+    <ion-header-bar class="bar search-container">
+        <div class="buttons">
+            <button class="button button-icon button-clear ion-refresh search-bar-button-itpa" style="color: goldenrod; background-color: #213873;" ng-click="refreshUber();"></button>
+        </div>
+        <h1 class="title" style="text-align: center; color:white;">Uber Rides</h1>
+        <div class="buttons">
+            <button class="button button-balanced" ng-click="closeUber()">Close</button>
+        </div>
+    </ion-header-bar>
+    <ion-content scroll="true">
+        <div class="uberMsgContent" ng-show="isRefreshingUber">
+            Refreshing list...
+        </div>
+        <div class="uberMsgContent" ng-show="uberListIsEmpty">
+            There are no rides available for the requested From and To locations.
+        </div>
+        <div class="uberMsgContent" ng-show="!(uberListIsEmpty || isRefreshingUber)">
+            Select your ride
+        </div>
+        <div class="uberRidesListDiv">
+            <ion-list>
+                <div ng-repeat="item in uberPriceArray" class="uberRidesPriceRow" ng-click="selectUberPrice(item);">
+                    <div class="uberRowEntryAllContent">
+                        <div class="uberRowIconDiv">
+                            <img ng-src="{{item.image}}" ng-if="item.image" class="uberRowIcon" style="display:inline-block;"/>
+                            <!--<i class="itpa-uber-icon uberRowIcon"></i>-->
+                            <div class="uberRowEntryStyle" style="display:inline-block;background-color: black;">
+                                {{item.short_description}}{{item.etaTime}}
+                            </div>
+                        </div>
+                        <div class="uberRowEntryStyle" style="background-color: #777;">
+                            {{item.description}}
+                        </div>
+                        <div class="uberRowEntryStyle" style="background-color: #777;">
+                            {{item.capacity}} seats
+                        </div>
+                        <div class="uberRowEntryStyle" ng-style="{'background-color': item.sharedBkColor };">
+                            {{item.sharedStr}}
+                        </div>
+                        <div class="uberRowEntryStyle" ng-if="item.isAvailable" style="background-color: #efa31f;">
+                            {{item.estimate}}
+                        </div>
+                        <div class="uberRowEntryStyle" ng-style="{'background-color': item.availableBkColor };">
+                            {{item.endTime}}
+                        </div>
+                    </div>
+                </div>
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-modal-view>

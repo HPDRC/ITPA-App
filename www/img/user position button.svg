@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>map overlay/user position button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="24" cy="24" r="24"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.286458333 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="map-overlay/user-position-button" transform="translate(2.000000, 2.000000)">
+            <g>
+                <g id="Oval-62">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="map-overlay/user-position" transform="translate(10.500000, 10.500000)">
+                    <g id="map-overlay/user-location-">
+                        <path d="M9.2368483,13.5088625 C9.24173724,15.8626087 11.1548378,17.7683425 13.5085534,17.7631473 C15.8622691,17.7588689 17.7683418,15.8467174 17.7631473,13.4920543 C17.7600917,11.1373913 15.8476023,9.23165747 13.4920533,9.2368527 C11.1386432,9.24082553 9.23287605,11.1538938 9.2368483,13.5088625 Z" id="Shape" fill="#003377"></path>
+                        <circle id="Oval-3" stroke="#003377" stroke-width="1.42105263" stroke-linecap="square" cx="13.5" cy="13.5" r="9.23684211"></circle>
+                        <path d="M0.710526316,13.5 L3.55263158,13.5" id="Line" stroke="#003377" stroke-width="1.42105263" stroke-linecap="square"></path>
+                        <path d="M23.4473684,13.5 L26.2894737,13.5" id="Line-Copy" stroke="#003377" stroke-width="1.42105263" stroke-linecap="square"></path>
+                        <path d="M13.5,26.2894737 L13.5,23.4473684" id="Line-Copy-3" stroke="#003377" stroke-width="1.42105263" stroke-linecap="square"></path>
+                        <path d="M13.5,3.55263158 L13.5,0.710526316" id="Line-Copy-2" stroke="#003377" stroke-width="1.42105263" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

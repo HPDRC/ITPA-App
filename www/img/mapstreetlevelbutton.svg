@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="49px"
+   height="49px"
+   viewBox="0 0 49 49"
+   version="1.1"
+   id="svg4136"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="mapstreetlevelbutton.svg">
+  <metadata
+     id="metadata4170">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>map button/crosshairs</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2048"
+     inkscape:window-height="1089"
+     id="namedview4168"
+     showgrid="false"
+     inkscape:zoom="17.55102"
+     inkscape:cx="16.09593"
+     inkscape:cy="24.5"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4136" />
+  <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4138">map button/crosshairs</title>
+  <desc
+     id="desc4140">Created with Sketch.</desc>
+  <defs
+     id="defs4142">
+    <circle
+       id="path-1"
+       cx="24.5"
+       cy="24.5"
+       r="24.5" />
+    <mask
+       id="mask-2"
+       maskContentUnits="userSpaceOnUse"
+       maskUnits="objectBoundingBox"
+       x="0"
+       y="0"
+       width="49"
+       height="49"
+       fill="white">
+      <use
+         xlink:href="#path-1"
+         id="use4146" />
+    </mask>
+    <circle
+       id="path-3"
+       cx="11.75"
+       cy="11.5"
+       r="11.5" />
+    <mask
+       id="mask-4"
+       maskContentUnits="userSpaceOnUse"
+       maskUnits="objectBoundingBox"
+       x="0"
+       y="0"
+       width="23"
+       height="23"
+       fill="white">
+      <use
+         xlink:href="#path-3"
+         id="use4150" />
+    </mask>
+    <rect
+       id="path-5"
+       x="-307"
+       y="-233"
+       width="501"
+       height="310" />
+    <mask
+       id="mask-6"
+       maskContentUnits="userSpaceOnUse"
+       maskUnits="objectBoundingBox"
+       x="0"
+       y="0"
+       width="501"
+       height="310"
+       fill="white">
+      <use
+         xlink:href="#path-5"
+         id="use4154" />
+    </mask>
+  </defs>
+  <use
+     id="Oval-62"
+     mask="url(#mask-2)"
+     xlink:href="#path-1"
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#003377;stroke-width:3;stroke-linecap:square"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     style="fill:none;fill-rule:evenodd;stroke:#003377;stroke-width:3;stroke-linecap:round"
+     xlink:href="#path-3"
+     mask="url(#mask-4)"
+     id="Oval-20"
+     transform="matrix(0.55904825,0,0,0.58835238,17.617811,16.622902)" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#003377;stroke-width:1.97533607;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="Line-Copy-2"
+     d="m 24.186628,37.574078 0,-6.754821" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#003377;stroke-width:1.97533607;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="Line-Copy-4"
+     d="m 24.186628,15.958651 0,-6.754821" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#003377;stroke-width:1.97533607;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="Line-Copy-6"
+     d="m 10.387105,23.726695 6.418383,0" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#003377;stroke-width:1.97533607;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     id="Line-Copy-8"
+     d="m 30.92593,23.726695 6.418383,0" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     style="fill:none;fill-rule:evenodd;stroke:#505050;stroke-width:4;stroke-linecap:square"
+     xlink:href="#path-5"
+     mask="url(#mask-6)"
+     id="Rectangle-136" />
+</svg>

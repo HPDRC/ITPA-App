@@ -1,0 +1,6 @@
+{
+  "name": "itpa-app",
+  "app_id": "edu.fiu.scis.itpa",
+  "gulpStartupTasks": ["sass","watch"],
+  "watchPatterns": ["www/**/*","!www/lib/**/*"
+  ]}

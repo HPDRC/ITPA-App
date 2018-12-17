@@ -1,0 +1,68 @@
+﻿<ion-view class="login-view">
+    <ion-content scroll="false">
+        <div class="login-content">
+            <div class="login-header">
+                <h2>Welcome</h2>
+                <p>Thank you for using the ITPA-app!</p>
+                <p>To create or access your account,<br />please enter your credentials below:</p>
+            </div>
+            <div class="login-credentials">
+                <label class="item item-input">
+                    <input type="text"
+                            name="email_input"
+                            required ng-minlength="1"
+                            ng-change="checkCanLogin()"
+                            ng-model="userLogin.email"
+                            ng-enter="enterOnEmail()"
+                            placeholder="Your email address">
+                </label>
+                <label class="item item-input">
+                    <input type="password"
+                            name="pass_input"
+                            required ng-minlength="1"
+                            ng-change="checkCanLogin()"
+                            ng-model="userLogin.password"
+                            ng-enter="enterOnPassword()"
+                            placeholder="and a password">
+                </label>
+                <div style="text-align:center;display:inline-block;width:100%;" ng-show="!userLogin.needsCodeInput">
+                    <p><sub>Use a password with at least 8 characters<br />Include upper and lower case letters, digits, and symbols</sub></p>
+                </div>
+                <label class="item item-input" ng-show="userLogin.needsCodeInput">
+                    <input type="text"
+                           name="code_input"
+                           ng-model="userLogin.confirmationCode"
+                           ng-enter="enterOnConfirmationCode()"
+                           placeholder="your confirmation code">
+                </label>
+                <div style="text-align:center;display:inline-block;width:100%;" ng-show="userLogin.needsCodeInput">
+                    <p><sub>Enter the confirmation code that was emailed to you</sub></p>
+                </div>
+                <br />
+                <textarea id="loginMessage" readonly ng-model="userLogin.message" ng-show="userLogin.showMessage" 
+                          style="width:100%;padding:8px;resize:none;border-radius:6px;text-align:center;background-color:sandybrown"></textarea>
+            </div>
+
+            <div class="login-buttons">
+                <button class="button button-block button-balanced"
+                        ng-show="userLogin.canAskForCode"
+                        ng-click="getCode()">
+                    Email me a confirmation code
+                </button>
+                <button class="button button-large button-block button-balanced"
+                        type="submit" ng-click="login()" ng-disabled="!userLogin.canPressLogin">
+                    Log in
+                </button>
+                <!--<ion-checkbox div class="item item-checkbox checkbox-balanced" style="background-color:transparent;border:none;padding-left:30px;" ng-model="userLogin.saveCredentials" ng-change="onToggleSaveCredentials()">
+                    Remember my credentials
+                </ion-checkbox>-->
+                <div class="item item-checkbox checkbox-balanced" style="background-color:transparent;border:none;padding-left:30px;" >
+                    <label class="checkbox" style="font-size:10px;">
+                        <input type="checkbox" ng-model="userLogin.saveCredentials" ng-change="onToggleSaveCredentials()" >
+                    </label>
+                    Remember my credentials
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
